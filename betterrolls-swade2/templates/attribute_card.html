@@ -1,0 +1,19 @@
+{{>"modules/betterrolls-swade2/templates/common_card_header.html"}}
+<hr>
+<div class="brsw-form">
+    <div class="brsw-collapse-button brsw-clickable" data-collapse="brsw-complete-form-options">
+        <i class="fas fa-caret-right"></i>{{ localize 'BRSW.More_options'}}
+    </div>
+    <div class="brsw-complete-form-options brsw-collapsed">
+        {{>"modules/betterrolls-swade2/templates/common_more_options.html"}}
+    </div>
+    {{# if trait_roll.rolls }}
+        {{>"modules/betterrolls-swade2/templates/trait_roll_partial.html"}}
+        {{>"modules/betterrolls-swade2/templates/trait_result_partial.html"}}
+    {{else}}
+    <div class="brsw-button-row">
+        <button class="brsw-roll-button">{{ localize 'BRSW.Roll' }}</button>
+    </div>
+    {{/if}}
+</div>
+{{>"modules/betterrolls-swade2/templates/common_card_footer.html"}}

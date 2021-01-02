@@ -1,0 +1,234 @@
+/* General Styles */
+
+.brsw-clickable:hover {
+	cursor: pointer;
+	box-shadow: 0 0 8px red;
+}
+
+.brsw-display-none {
+    display: none;
+}
+
+/* Styles for the card header */
+
+.brws-actor-img {
+    float: left;
+    height: 3em;
+}
+
+.brsw-header-tittle {
+    text-align: center;
+    width: 100%;
+    color: darkred;
+    font-weight: bold;
+}
+
+.brsw-header-type-text {
+    float: right;
+    color: darkgray;
+}
+
+.brsw-popup{
+    color: black;
+}
+
+.brsw-header-notes {
+    text-align: right;
+    width: 100%;
+    margin: 2px;
+}
+
+.brsw-header-img {
+    height: 1.5em;
+}
+
+.brsw-header-txt {
+    position: relative;
+    top: -.35em;
+}
+
+/* Styles for the card body */
+
+.brsw-false-button {
+    background: rgba(255, 255, 240, 0.8);
+    padding: 1px;
+    margin: 2px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.brws-attribute-buttons {
+    clear: both;
+    margin: 1px;
+}
+
+.brws-common-modifiers {
+    margin-bottom: 5px;
+}
+
+.brws-selectable {
+    padding: 1px;
+    margin: 2px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.brws-selectable.brws-selected {
+    background: white;
+    color: black;
+}
+
+.brws-selectable.brws-selected.brws-permanent-selected {
+    background: red;
+    color: white;
+}
+
+.brsw-modifier {
+	padding: 1px;
+	margin: 2px;
+	border: 1px solid red;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
+.brsw-modifier.brsw-positive {
+	border-color: blue;
+}
+
+.brsw-collapsed {
+    display: none !important;
+}
+
+.brsw-form-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.brsw-label-options {
+    margin: 2px;
+    vertical-align: center;
+}
+
+.brsw-input-options {
+    max-width: 30%;
+}
+
+.brsw-button-row {
+    display: flex;
+}
+
+.brsw-button-smaller {
+    max-width: 40%;
+}
+
+/* Styles for the footer */
+
+.card-footer {
+	margin-top: 2px;
+	border-top: 2px groove #FFF;
+}
+
+.card-footer span {
+	font-size: 10px;
+	border-right: 2px groove #FFF;
+	padding-right: 5px;
+}
+
+.card-footer span:last-child {
+	border-right: 0;
+	padding-right: 0;
+}
+
+/* Styles for the result card */
+
+.brsw-result-row {
+    text-align: center;
+}
+
+.brsw-bar-input {
+	max-width: 2em;
+}
+
+.brsw-result-text {
+    margin: 2px;
+	text-align: center;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+/* Styles for the critical failure card */
+
+.brsw-fumble-row {
+    text-align: center;
+    border-style: solid;
+	border-radius: 5px;
+    border-color: red;
+}
+
+/* Styles for the chat form */
+
+.brsw-chat-form{
+    flex: 0;
+}
+
+/* Styles for the roll partial */
+
+.brsw-roll-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-top: solid lightgrey 2px;
+    padding: 5px;
+}
+
+.brsw-roll-detail-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin: 4px;
+    padding: 4px;
+}
+
+.brsw-d4 {
+    background-image: url("/icons/svg/d4-grey.svg");
+}
+.brsw-d6 {
+    background-image: url("/icons/svg/d6-grey.svg");
+}
+.brsw-d8 {
+    background-image: url("/icons/svg/d8-grey.svg");
+}
+.brsw-d10 {
+    background-image: url("/icons/svg/d10-grey.svg");
+}
+.brsw-d12 {
+    background-image: url("/icons/svg/d12-grey.svg");
+}
+
+.brsw-dice-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.brsw-discarded-roll {
+    text-decoration: red line-through;
+}
+
+.brsw-red-text {
+    color: red;
+}
+
+.brsw-blue-text {
+    color: blue;
+}
+
+.brsw-row-button {
+    line-height: 80%;
+    width: 2em;
+}
